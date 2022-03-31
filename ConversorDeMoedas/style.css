@@ -1,0 +1,63 @@
+body {
+   font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://image.flaticon.com/icons/png/512/201/201635.png');
+    background-color: #050505;
+     background-size: 80vh;
+    /* background-position: center bootom; */ 
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh; 
+}
+
+.container-meio{
+    height: 55%;
+    padding: 30px;
+    background-color: #131212;
+
+}
+
+.container-right{
+    float: right;
+    padding: 30px;
+    height: 65%;
+    width: 50%;
+    background-color: #0a0a0a;
+}
+
+.page-title{
+    color: #e61f2c;
+    margin: 0 0 5px;
+}
+
+.page-subtitle{
+    color: #e84f58;
+    margin-top: 5px;
+}
+
+.page-label{    
+    color: #e84f58;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.page-logo{
+    width: 200px;
+}
+
+.img{
+    padding: 7px;
+    background-position: right; 
+    width: 400px; 
+}
+
+.alura-logo{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

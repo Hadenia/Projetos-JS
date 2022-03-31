@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+    <title>Hello World</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média
+        </h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+        </p>
+    <div class="container-meio">
+        <img src="../imagens/calculadora.jpg" alt="" class="img-cal"> 
+    
+        <div class="container-right">   
+            <label for="nota1" class="page-subtitle">Nota 1</label>
+            <input type="number" id="nota_1" size="3"/></br></br>
+            <label for="nota2" class="page-subtitle">Nota 2</label>
+            <input type="number" id="nota_2" size="3"/></br></br>
+            <button type="submit" onclick="CalcularMedia()">Calcular</button>
+            <button type="submit" onclick="Limpar()">Limpar</button>
+            </br></br>
+            <label id="nota_media" class="page-label" value=""></label>
+
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </div>
+
+    </div>
+    
+
+    <a href="https://alura.com.br/" target "_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+</html>
